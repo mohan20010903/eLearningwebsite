@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="coursecard.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="storecourses.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container flex justification align-center gap bottom-border">
+            <div class="flex justification align-center gap">
+                <div>
+                    <img src="images/crystal-delta_b.png" alt="logo">
+                </div>
+                <div class="tab flex gap">
+
+                    <li><a class="tablinks active" href="course.html">All Courses</a></li>
+                    <li><a class="tablinks" href="mydashboard.html">My Dashboard</a></li>
+
+                </div>
+            </div>
+            <div>
+                <button><a href="index.html">Logout</a></button>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="tabcontent block container" id="allcourses">
+            <h1 id="username">Greetings</h1>
+            <p>Take a look into the list of all courses</p>
+
+            <div class="grid column">
+                <div class="card" id="CDL001">
+                    <div>
+                        <img src="images/bg image.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="card-content">
+                        <a href="reactjs.html">React js basics</a>
+                        <p>Course ID : CDL001</p>
+                        <div class="flex justification">
+                            <div>
+                                <p>Start Date: <span>01-01-2024</span></p>
+                            </div>
+                            <div>
+                                <p>End Date: <span>01-06-2024</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="CDL002">
+                    <div>
+                        <img src="images/bg image.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="card-content">
+                        <a href="nodejs.html">Node js basics</a>
+                        <p>Course ID : CDL002</p>
+                        <div class="flex justification">
+                            <div>
+                                <p>Start Date: <span>01-01-2024</span></p>
+                            </div>
+                            <div>
+                                <p>End Date: <span>01-06-2024</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="CDL003">
+                    <div>
+                        <img src="images/bg image.jpg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="card-content">
+                        <a href="python.html">Python tutorial</a>
+                        <p>Course ID : CDL003</p>
+                        <div class="flex justification">
+                            <div>
+                                <p>Start Date: <span>01-01-2024</span></p>
+                            </div>
+                            <div>
+                                <p>End Date: <span>01-06-2024</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="greeting.js"></script>
+</body>
+</html>

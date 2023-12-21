@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="coursecard.css">
+    <link rel="stylesheet" href="style.css">
+
+<style>
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="container flex justification align-center gap bottom-border">
+            <div class="flex justification align-center gap">
+                <div>
+                    <img src="images/crystal-delta_b.png" alt="logo">
+                </div>
+                <div class="tab flex gap">
+
+                    <li><a class="tablinks" href="course.html">All Courses</a></li>
+                    <li><a class="tablinks active" href="mydashboard.html">My Dashboard</a></li>
+
+                </div>
+            </div>
+            <div>
+                <button><a href="index.html">Logout</a></button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>My courses</h2>
+            <div id="copiedContent" class="grid column"></div>
+        </div>
+    </section>
+
+    <script src="displayCourse.js"></script>
+
+</body>
+</html>

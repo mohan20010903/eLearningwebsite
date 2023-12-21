@@ -1,0 +1,35 @@
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-basis{
+    flex-basis: 50%;
+}
+
+.justification{
+    justify-content: space-between;
+}
+
+.gap{
+    gap: 1rem;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+.grid{
+    display: grid;
+}
+
+.column{
+    grid-template-columns: repeat(3,1fr);
+}

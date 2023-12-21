@@ -1,0 +1,31 @@
+
+section span{
+    display: block;
+}
+
+/* --------------------------------------------- */
+
+.card{
+    width: 300px;
+    border-radius: 5px 10px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    background-color: rgb(229, 238, 247);
+}
+
+.card-content{
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-content a{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(15, 15, 125);
+    cursor: pointer;
+}
+
+.card-content a:hover{
+    color: rgb(45, 45, 255);
+}

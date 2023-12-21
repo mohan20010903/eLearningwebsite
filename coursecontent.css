@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+}
+
+.column-2{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.tab button {
+    background-color: rgb(245, 227, 194);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+}
+
+.tab button.active {
+    background-color: orange;
+}
+.tabcontent{
+    display: none;
+}
+.block{
+	display: block;
+}
+
+.bottom-margin{
+    margin-bottom: 10px;
+}
+
+.enrollbtn{
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.enrollbtn button{
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background-color: rgb(43, 75, 160);
+    color: white;
+    cursor: pointer;
+}
+
+.enrollbtn button:hover{
+    background-color: rgb(9, 30, 85);
+}
